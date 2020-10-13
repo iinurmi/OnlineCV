@@ -18,14 +18,17 @@ class App extends React.Component {
     this.state = {
       title: 'Iiron CV',
       experienceData: experience,
+
     }
     this.handleChange = this.handleChange.bind(this);
+
   }
 
   handleChange = (event) => {
     console.log(event.target.value);
     console.log(event.target.name);
   }
+
 
 
 

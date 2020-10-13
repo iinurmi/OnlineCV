@@ -29,6 +29,9 @@
 .App-link {
   color: #61dafb;
 }
+.block-element {
+  margin-bottom: 20px;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -37,4 +40,18 @@
   to {
     transform: rotate(360deg);
   }
+}
+.hide {
+  opacity: 0;
+  transition: opacity 1.5s linear;
+  -webkit-transition: opacity 1.5s linear;
+  -moz-transition: opacity 1.5s linear;
+  -o-transition: opacity 1.5s linear;
+}
+.show {
+  opacity: 1;
+  transition: opacity 1.5s linear;
+  -webkit-transition: opacity 1.5s linear;
+  -moz-transition: opacity 1.5s linear;
+  -o-transition: opacity 1.5s linear;
 }
