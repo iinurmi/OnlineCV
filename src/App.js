@@ -41,7 +41,7 @@ class App extends React.Component {
           <HeaderComponent title={this.state.title} />
           <div className="container">
             <div className="row">
-              <SideSectionComponent picture={profile_picture} />
+              <SideSectionComponent picture={profile_picture}  category={this.state.experienceData.sectionTitle}/>
               <MainSectionComponent data={this.state.experienceData} />
             </div>
           </div>

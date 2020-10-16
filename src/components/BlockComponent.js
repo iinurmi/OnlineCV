@@ -59,8 +59,7 @@ export default class BlockComponent extends React.Component {
                  {description}
                 </p>
                 {listElement && <div>{listElement.heading}</div>}
-                {listElement && listElement.items.map((item, index) => <li key={index}>{item}</li>)
-                }
+                {listElement && listElement.items.map((item, index) => <li key={index}>{item}</li>)}
               </div>);
          })}
        </div>

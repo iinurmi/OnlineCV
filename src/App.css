@@ -55,3 +55,6 @@
   -moz-transition: opacity 1.5s linear;
   -o-transition: opacity 1.5s linear;
 }
+.fixed-height {
+  min-height: 350px;
+}

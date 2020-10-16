@@ -1,7 +1,7 @@
 import React from 'react'
 
 
-const SideSectionComponent = ({picture}) => {
+const SideSectionComponent = ({picture, category}) => {
   return(
     <div className="col-md-3 side-section">
       <div className="sticky-top">
@@ -9,9 +9,9 @@ const SideSectionComponent = ({picture}) => {
         <div>
           Iiro Nurmi
           iinurmi.wordpress.com
-          http://www.linkedin.com/pub/iiro-nurmi/65/15a/b77
-
-
+          <h3>
+          {category}
+          </h3>
 
         </div>
       </div>

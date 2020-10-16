@@ -1,5 +1,5 @@
 export const experience = {
-  sectionTitle: '',
+  sectionTitle: 'Experience',
   icon: null,
   description: '',
   items: [
